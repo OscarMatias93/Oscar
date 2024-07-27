@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuración</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .header, .footer {
+      background-color: #005f99;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #004080;
+      overflow: hidden;
+    }
+
+    .menu li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+    }
+
+    .menu li a:hover {
+      background-color: #003366;
+    }
+
+    .options {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .btn {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #005bb5;
+    }
+
+    .btn-danger {
+      background-color: #f44336;
+    }
+
+    .btn-danger:hover {
+      background-color: #e53935;
+    }
+
+    .footer {
+      background-color: #004080;
+      text-align: center;
+      padding: 10px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Configuración de Página</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="perfil-usuario.html">Perfil de Usuario</a></li>
+          <li><a href="configuracion.html">Configuración</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <p>Aquí puedes configurar las opciones de tu página:</p>
+      <div class="options">
+        <a href="#" class="btn">Cambiar Tema</a>
+        <a href="#" class="btn">Editar Perfil</a>
+        <a href="#" class="btn">Configurar Notificaciones</a>
+        <a href="#" class="btn btn-danger">Eliminar Cuenta</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Pie de página</p>
+    </div>
+  </div>
+</body>
+</html>
